@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="inner">
+      <span class="bpm-span">
+        <h1 id="bpm" class="bpm">140</h1>
+        <p class="bpm-tag">BPM</p>
+      </span>
+    </div>
+    <div class="inner">
+      <button id="dec">-</button>
+      <input type="range" min="20" max="260" step="5" value="140" id="slider" />
+      <button id="inc">+</button>
+    </div>
+    <div class="inner">
+      <button id="play">PLAY</button>
+      <button id="stop">STOP</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
